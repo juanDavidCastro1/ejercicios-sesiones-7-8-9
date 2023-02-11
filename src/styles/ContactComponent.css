@@ -1,0 +1,78 @@
+
+.card{
+    width: 230px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #41436A;
+    border-radius: 10px;
+}
+
+.card__name{
+    margin: 0px auto 10px;
+    color: #F54768;
+}
+
+.card__container__email{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px 0;
+}
+
+.card__email{
+    margin: 0 auto 20px;
+    color: #cccc;
+}
+
+.card__container__button{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__button-state{
+    padding: 8px;
+    background-color: #24BB21;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.card__button-state-disconected{
+    padding: 8px;
+    background-color: #ccc;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.card__button-state-disconected:hover{
+    background-color: white;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.card__button-state:hover{
+    background-color: white;
+    color: #24BB21;
+    cursor: pointer;
+}
+
+.card__button-delete{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #bb2124;
+    color: white;
+    border: none;
+}
+
+.card__button-delete:hover{
+    background-color: white;
+    color: #bb2124;
+    cursor: pointer;
+}
